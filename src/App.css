@@ -1,0 +1,84 @@
+.register{
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 15px;
+    
+    animation: floatUp 3s ease-out;
+}
+
+@keyframes floatUp {
+    from {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.bg{
+    background-image:url("./Media/Tradebg.png");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#crd{
+    background: rgba(5, 15, 35, 0.88);
+    backdrop-filter: blur(15px);
+    border: 1px solid #079603b3;
+    border-radius: 18px;
+    box-shadow: 0 0 25px #08d42ac4;
+
+}
+#crd input::placeholder{
+    color: #8FA6B8;
+}
+#crd input{
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid hsla(0, 39%, 39%, 0.555);
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 10px 14px;
+}
+#head{
+    font-family: "Fjalla One", sans-serif;
+}
+#tcbg{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTku3XNhHuF5ihbu0leFt-Ki3Jd-uFrD8F_Ypkl3c66NSjfjvvsJ735j2k&s=10);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+.text{
+    font-family: "Valley Sans", sans-serif;
+    font-style: italic;
+}
+#btn1{
+    background: hsla(115, 94%, 43%, 0.767);
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 10px 14px;
+}
+#btn1:hover{
+    background-color: transparent;
+}
+#dash{
+    font-family: "Alfa Slab One", serif;
+    color: white;
+}
+#card1{
+    background: transparent;
+    backdrop-filter: blur(15px);
+    border: 1px solid hsla(184, 46%, 31%, 0.973);
+    border-radius: 18px;
+    box-shadow: 0 0 25px hsla(184, 46%, 31%, 0.973);
+    color: white;
+}
+#dashbg{
+    background-color: black;
+}
+#final{
+    background-color: black;
+}
