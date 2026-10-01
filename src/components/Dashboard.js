@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import './Dash.css'
 import {
   Chart as ChartJS,
   LinearScale,
